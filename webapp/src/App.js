@@ -3,12 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Main from './components/Main';
 import Chatroom from './components/Chatroom';
-
-function Register() {
-  return (
-    <div>Register</div>
-  );
-}
+import Register from './components/Register';
 
 function Login() {
   return (
